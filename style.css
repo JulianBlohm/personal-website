@@ -47,8 +47,9 @@ nav {
     margin: 20px auto 0px auto;
 }
 
-p {
+.image-text {
     margin: 5px 20px;
+    font-style: italic;
 }
 
 .heading {
@@ -70,13 +71,15 @@ p {
 }
 
 .intro li {
-    padding: 5px;
+    padding: 8px 20px;
     color: white;
     background-color: black;
     border-radius: 2px;
-    margin: 3px;
+    margin: 7px;
     font-family:;
-    font-size: 90%;
+    font-size: 100%;
+    font-weight: 300;
+    
 }
 
 
@@ -89,7 +92,7 @@ p {
     padding: 20px;
     margin: 50px auto 30px auto;
     font-size: 120%;
-    width: 80%
+    width: 90%
 }
 
 .contactlink {
