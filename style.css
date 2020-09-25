@@ -52,28 +52,53 @@ p {
 }
 
 .heading {
+    border-bottom: 1px solid black;
     border-left: 1px solid black;
     padding-left: 5px;
     padding-right: 10px;
-    margin: 30px 0px 10px 20px;
+    margin: 30px auto;
+    width: 90%;
 }
+
+.intro ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0px auto;
+    padding: 0px;
+    width: 80%;
+}
+
+.intro li {
+    padding: 5px;
+    color: white;
+    background-color: black;
+    border-radius: 2px;
+    margin: 3px;
+}
+
+
+
+/* ========================= Contact ====================================*/
 
 .contact {
     background-color: black;
     color: white;
     padding: 20px;
-    margin: 20px;
+    margin: 50px auto 30px auto;
+    font-size: 120%;
+    width: 80%
 }
 
 .contactlink {
     color: white;
     text-decoration: underline;
     display: block;
+    
 }
 
 .phone {
     margin: 0px 0px 20px 0px;
-    display: block;
 }
 
 /* =================================== Socials ==========================*/
@@ -116,4 +141,12 @@ table {
 footer {
     background-color: black;
     padding: 30px;
+    text-align: center;
+}
+
+.back {
+    text-decoration: none;
+    color: white;
+    border-left: 1px solid white;
+    padding-left: 5px;
 }
