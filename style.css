@@ -75,6 +75,8 @@ p {
     background-color: black;
     border-radius: 2px;
     margin: 3px;
+    font-family:;
+    font-size: 90%;
 }
 
 
@@ -132,16 +134,53 @@ p {
     border-left: 1px solid black;
 }
 
-table {
-    margin: 20px;
+.biography ul {
+    display: grid;
+    grid-gap: 5px;
+    grid-row-gap: 20px;
+    grid-template-columns: 15% 85%;
+    list-style: none;
+    width: 90%;
+    padding: 0px;
+    margin: 30px auto ;
 }
+
+.jahr20 {
+    grid-row: 1;
+    border-right: 1px solid black;
+}
+.jahr18 {
+    grid-row: 2;
+    border-right: 1px solid black;
+}
+.jahr17 {
+    grid-row: 3;
+    border-right: 1px solid black;
+}
+.jahr14 {
+    grid-row: 4;
+    border-right: 1px solid black;
+}
+.jahr07 {
+    grid-row: 5;
+    border-right: 1px solid black;
+}
+
 
 /* =============================== Footer ================================= */
 
 footer {
     background-color: black;
-    padding: 30px;
+    padding: 10px 0px;
     text-align: center;
+}
+
+footer div {
+    margin: 5px auto;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 10px;
+    width: 70%;
 }
 
 .back {
