@@ -152,6 +152,10 @@ nav {
     margin: 30px auto ;
 }
 
+.timeline {
+    letter-spacing: 0.1em;
+}
+
 .italic {
     font-style: italic;
     font-weight: 300;
