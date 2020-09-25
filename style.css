@@ -5,7 +5,7 @@
 
 body {
     margin: 0px;
-    font-family: 'Josefin Slab', serif;
+    font-family: 'Roboto Slab', serif;
 }
 
 header {
@@ -76,6 +76,7 @@ p {
 
 .phone {
     margin: 0px 0px 20px 0px;
+    display: block;
 }
 
 .bio-text {
