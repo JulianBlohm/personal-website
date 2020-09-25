@@ -21,10 +21,8 @@ header {
     border-bottom: 1px solid black;
 }
 
-h1 {
-    padding: 0px 20px;
-    /* border-left: 1px solid white; */
-    margin-left:;
+.title {
+    margin-left: 20px;
 }
 
 nav {
@@ -33,15 +31,12 @@ nav {
     padding: 10px 20px;
 }
 
-a {
-    color: black;
-    text-decoration: none;
-}
-
 .nav {
     border-left: 1px solid black;
     padding-left: 5px;
     padding-right: 10px;
+    text-decoration: none;
+    color: black;
 }
 
 /* =========================== Intro ============================*/
@@ -95,6 +90,8 @@ p {
     width: 70%;
     height: 100%;
     display: block;
+    /*box-shadow: 0px 0px 18px 0.5px white;*/
+    border-radius: 5%;
 }
 
 .logo {
@@ -112,4 +109,11 @@ p {
 
 table {
     margin: 20px;
+}
+
+/* =============================== Footer ================================= */
+
+footer {
+    background-color: black;
+    padding: 30px;
 }
