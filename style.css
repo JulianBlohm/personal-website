@@ -138,13 +138,18 @@ figure {
         display: flex;
         justify-content: space-around;
         } 
+
+    .contact span {
+        font-size: 1.2em;
+        font-weight: 600;
+    }
         
     .phone {
         margin: 0px;
     }
     }
 
-/* =================================== Socials ==========================*/
+/* =================================== visit me ==========================*/
 
 .headline-socials  {
     color: white;
@@ -182,6 +187,10 @@ figure {
         display: block;
     }
 
+    .headline-socials {
+        width: 95%;
+    }
+
     .logos-container {
         display: flex;
         width: 90%;
@@ -193,7 +202,7 @@ figure {
     .logo-box {
         width: 25%;
         align-items: center;
-        margin: 0px auto 35px auto;
+        margin: 0px auto 50px auto;
     }
 
     .logo {
@@ -217,7 +226,7 @@ figure {
     width: 90%;
 }
 
-.biography ul {
+.timeline ul {
     display: grid;
     grid-gap: 5px;
     grid-row-gap: 20px;
@@ -226,10 +235,6 @@ figure {
     width: 90%;
     padding: 0px;
     margin: 30px auto ;
-}
-
-.timeline {
-    letter-spacing: ;
 }
 
 .italic {
@@ -258,7 +263,12 @@ figure {
     border-right: 1px solid black;
 }
 
+@media only screen and (min-width: 992px){
+    .timeline {
+        grid-column: 2;
+}
 
+}
 /* =============================== Footer ================================= */
 
 footer {
