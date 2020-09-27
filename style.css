@@ -199,11 +199,13 @@ figure {
 .logo {
     width: 60%;
     height: auto;
+    display: inline-block;
 }
 
 .linkedin {
     width: 50%;
     height: auto;
+    display: inline-block;
 }
 
 @media only screen and (min-width: 992px){
@@ -232,13 +234,11 @@ figure {
 
     .logo {
         width: 50%;
-        display: inline-block;
     }
 
     .linkedin {
         width: 40%;
         height: 80%;
-        display: inline-block;
     }
 }
 
