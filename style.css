@@ -157,17 +157,6 @@ figure {
     padding: 1px 0px 1px 0px;
 }
 
-@media only screen and (min-width: 992px){
-    .profiles {
-        grid-column: 1 / span 2;
-        display: flex;
-    }
-
-    .headline-socials {
-    
-    }
-}
-
 .logo-box {
     background-color: white;
     padding: 20px 0px;
@@ -185,6 +174,36 @@ figure {
 
 .linkedin {
     width: 50%;
+}
+
+@media only screen and (min-width: 992px){
+    .profiles {
+        grid-column: 1 / span 2;
+        display: block;
+    }
+
+    .logos-container {
+        display: flex;
+        width: 90%;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0px auto;
+    }
+
+    .logo-box {
+        width: 25%;
+        align-items: center;
+        margin: 0px auto 35px auto;
+    }
+
+    .logo {
+        width: 50%;
+    }
+
+    .linkedin {
+        width: 40%;
+        height: 80%;
+    }
 }
 
 /* ================================= Biography ===================================*/
