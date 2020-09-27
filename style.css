@@ -232,11 +232,13 @@ figure {
 
     .logo {
         width: 50%;
+        display: inline-block;
     }
 
     .linkedin {
         width: 40%;
         height: 80%;
+        display: inline-block;
     }
 }
 
@@ -295,7 +297,7 @@ figure {
     }
 
     .biography {
-        margin: 50px 0px;
+        margin: 50px 0px 50px 130px;
     }
 }
 /* =============================== Footer ================================= */
