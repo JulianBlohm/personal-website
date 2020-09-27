@@ -14,19 +14,14 @@ a {
     outline: none;
 }
 
-main {
-    padding-top: 40%;
-}
-
 @media only screen and (min-width: 992px) {
     
     main {
         display:grid;
         grid-template-columns: 50% 50% ;
         justify-content: center;
-        padding-top: 0%;
-        }
     }
+}
 
 /* ========================= Header ======================= */
 
@@ -36,9 +31,6 @@ header {
     padding: 20px 0px 0px 0px;
     margin: 0;
     border-bottom: 1px solid black;
-    position: fixed;
-    width: 100%;
-    top: 0;
 }
 
 .title {
@@ -59,11 +51,6 @@ nav {
     color: black;
 }
 
-@media only screen and (min-width: 992px) {
-    header {
-        position: static;
-    }
-}
 /* =========================== Intro ============================*/
 
 figure {
