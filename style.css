@@ -198,10 +198,12 @@ figure {
 
 .logo {
     width: 60%;
+    height: auto;
 }
 
 .linkedin {
     width: 50%;
+    height: auto;
 }
 
 @media only screen and (min-width: 992px){
