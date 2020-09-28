@@ -100,12 +100,12 @@ figure {
 @media only screen and (min-width: 992px){
     
     .imagefigure {
-        margin: 4% auto;
+        margin: 5% auto;
     }
     
     .skills {
         grid-column: 1 / span 2;
-        margin: 50px 0px 70px 0px;
+        margin: 0% 0% 5% 0%;
     }
 
     .skillfigure {
@@ -127,6 +127,10 @@ figure {
     .taghead {
         width: 100%;
         margin: 0px;
+    }
+
+    .otherfigure {
+        margin-top: 5%;
     }
 
     .others {
