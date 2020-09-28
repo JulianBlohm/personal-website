@@ -55,7 +55,7 @@ nav {
 
 figure {
     width: 90%;
-    margin: 20px auto 0px auto;
+    margin: 3% auto 0px auto;
 }
 
 .image {
@@ -294,11 +294,11 @@ figure {
 @media only screen and (min-width: 992px){
     .timeline {
         grid-column: 2;
-        margin: 50px auto;
+        margin: 10% 20% 10% auto;
     }
 
     .biography {
-        margin: 50px 0px 50px 130px;
+        margin: 10% auto 10% 20%;
     }
 }
 /* =============================== Footer ================================= */
