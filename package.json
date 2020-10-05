@@ -6,7 +6,6 @@
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html",
-    "homepage": "parcel build src/index.html --public-url https://julianblohm.github.io/personal-website/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
