@@ -1,0 +1,32 @@
+figure {
+  width: 100%;
+  margin: 0px auto;
+  display: flex;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.image-text {
+  margin: auto;
+  text-align: center;
+  color: var(--white);
+  padding: 10px;
+}
+
+@media only screen and (min-width: 992px) {
+  figure {
+    grid-row: 1 /2;
+    grid-column: 1/2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .image {
+    width: 400px;
+    height: auto;
+  }
+}

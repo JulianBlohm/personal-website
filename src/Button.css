@@ -1,0 +1,32 @@
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.button {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  width: 40%;
+  height: 40px;
+  border-radius: 0%;
+  border-style: none;
+  font-family: 'Roboto Slab', serif;
+  font-size: 112.5%;
+  background: var(--blue);
+  margin: 10px 15px;
+  padding: 5px 10px;
+  color: var(--white);
+}
+
+@media only screen and (min-width: 992px) {
+  .wrapper {
+    grid-row: 2/ 3;
+    grid-column: 1 /2;
+    margin-top: 5%;
+  }
+}

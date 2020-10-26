@@ -1,0 +1,60 @@
+.skills {
+  background: var(--white);
+  padding: 10px 0;
+}
+
+.tags ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  list-style: none;
+  margin: 0px auto;
+  padding: 0px;
+  width: 90%;
+}
+
+.tags li {
+  padding: 4px 15px;
+  color: var(--white);
+  background-color: var(--gray);
+  border-radius: 2px;
+  border: none;
+  margin: 7px;
+  font-size: 80%;
+  font-weight: 400;
+}
+
+@media only screen and (min-width: 992px) {
+  .skills {
+    margin: 5% 0% 5% 0%;
+  }
+
+  .skillfigure {
+    margin-bottom: 70px;
+  }
+
+  .tags {
+    width: 90%;
+    display: flex;
+  }
+
+  .tags ul {
+    width: 100%;
+    flex-wrap: none;
+    justify-content: flex-start;
+  }
+
+  .taghead {
+    width: 100%;
+    margin: 0px;
+  }
+
+  .otherfigure {
+    margin-top: 5%;
+  }
+
+  .others {
+    width: 40%;
+    margin: 0px;
+  }
+}
