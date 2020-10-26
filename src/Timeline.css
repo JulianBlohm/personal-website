@@ -34,11 +34,33 @@
 
 @media only screen and (min-width: 992px) {
   .timeline {
-    grid-column: 2;
-    margin: 10% 20% 10% auto;
+    grid-column: 1 /-1;
+    width: 100%;
   }
 
-  .biography {
-    margin: 10% auto 10% 20%;
+  .timeline ul {
+    display: grid;
+    width: 95%;
+    grid-template-columns: 8% 16% 8% 16% 8% 16% 8% 16%;
+  }
+
+  .jahr20 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .jahr18 {
+    grid-column: 3;
+    grid-row: 1;
+    text-align: center;
+  }
+  .jahr17 {
+    grid-column: 5;
+    grid-row: 1;
+    text-align: center;
+  }
+  .jahr14 {
+    grid-column: 7;
+    grid-row: 1;
+    text-align: center;
   }
 }

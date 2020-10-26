@@ -6,6 +6,7 @@ figure {
 
 .image {
   width: 100%;
+  height: auto;
 }
 
 .image-text {
@@ -15,13 +16,17 @@ figure {
   padding: 10px;
 }
 
-.link {
-  color: var(--blue);
-  cursor: pointer;
-}
+@media only screen and (min-width: 992px) {
+  figure {
+    grid-row: 1 /2;
+    grid-column: 1/2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
 
-.line {
-  height: 10px;
-  width: 100%;
-  background: var(--white);
+  .image {
+    width: 400px;
+    height: auto;
+  }
 }
