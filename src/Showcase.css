@@ -1,0 +1,27 @@
+figure {
+  width: 100%;
+  margin: 0px auto;
+  display: flex;
+}
+
+.image {
+  width: 100%;
+}
+
+.image-text {
+  margin: auto;
+  text-align: center;
+  color: var(--white);
+  padding: 10px;
+}
+
+.link {
+  color: var(--blue);
+  cursor: pointer;
+}
+
+.line {
+  height: 10px;
+  width: 100%;
+  background: var(--white);
+}

@@ -1,0 +1,44 @@
+.timeline ul {
+  display: grid;
+  grid-gap: 5px;
+  grid-row-gap: 20px;
+  grid-template-columns: 25% 75%;
+  list-style: none;
+  width: 90%;
+  padding: 0px;
+  margin: 30px auto;
+  color: var(--white);
+}
+
+.italic {
+  font-style: italic;
+  font-weight: 300;
+}
+
+.jahr20 {
+  grid-row: 1;
+  border-right: 1px solid var(--white);
+}
+.jahr18 {
+  grid-row: 2;
+  border-right: 1px solid var(--white);
+}
+.jahr17 {
+  grid-row: 3;
+  border-right: 1px solid var(--white);
+}
+.jahr14 {
+  grid-row: 4;
+  border-right: 1px solid var(--white);
+}
+
+@media only screen and (min-width: 992px) {
+  .timeline {
+    grid-column: 2;
+    margin: 10% 20% 10% auto;
+  }
+
+  .biography {
+    margin: 10% auto 10% 20%;
+  }
+}

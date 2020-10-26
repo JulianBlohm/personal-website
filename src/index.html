@@ -5,122 +5,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
 
-    <!-- ********** Fonts ***********-->
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
-    <title>julian blohm.</title>
+    <title>julian blohm</title>
   </head>
 
   <body>
-    <!-- ======================= Header ======================== -->
 
     <header id="header">
       <h1 class="title">julian blohm.</h1>
-      <nav>
-      </nav>
+      <div class='line'></div>
     </header>
 
-    <!-- ====================== Intro ========================== -->
+
+
     <main class="main-grid">
       <figure class="imagefigure">
         <img class="image" src="images/portrait.jpg" alt="" />
-        <p class="image-text">Web Dev student at <a class= 'neuefische-link' href= 'https://www.neuefische.de/'>Neue Fische</a> in Hamburg. Available off January 2021.</p>
+        <p class="image-text">Web Dev student at <a class= 'link' href= 'https://www.neuefische.de/' target="_blank">Neue Fische</a> in Hamburg. Available off January 2021.</p>
       </figure>
 
-      <div class= 'line' ></div>
-
-      <section class="skills">
-        <figure class="tags">
-          <h2 class="heading taghead">.growing skillset</h2>
-          <ul>
-            <li>html</li>
-            <li>git</li>
-            <li>parcel</li>
-            <li>css</li>
-            <li>shell</li>
-            <li>javascript</li>
-            <li>npm</li>
-            <li>ES6</li>
-            <li>more to come</li>
-          </ul>
-        </figure>
-
+      <div class='line'></div>
       
-      </section>
-
-      <!-- ======================= Contact ============================ -->
-
-      <section class="contact" id="contact">
-        <!--<div class="phone">
-          <span>phone</span>
-          <a class="contactlink" href="tel:017681989xxx">017681989298</a>
-        </div>-->
-        <div class="mail">
-          <span>mail</span>
-          <a
-            class="contactlink contactlink-mail"
+      <div class='wrapper'>
+        <div class= 'buttons'>
+          
+            <a class= 'button'
             href="mailto:julianscript@outlook.de"
-            >julianscript@outlook.de</a
-          >
-        </div>
-      </section>
-
-      <!-- ======================= Socials ============================-->
-
-      <section class="profiles">
-        <h2 class="heading headline-socials">.visit me</h2>
-
-        <div class="logos-container">
-          <a
-            class="logo-box"
+            >.contact</a>
+        
+            <a
+            class="button"
             href="https://github.com/JulianBlohm"
             target="_blank"
-          >
-            <img class="logo" src="images/github.png" alt="" />
-          </a>
-
-          <a
-            class="logo-box"
-            href="https://codepen.io/JulianScript"
-            target="_blank"
-          >
-            <img class="logo" src="images/codepen.png" alt="" />
-          </a>
-
-          <!--<a class="logo-box" href="" target="_blank">
-            <img class="linkedin" src="images/linkedin.png" alt="" />
-          </a>-->
+          >.visit</a>
         </div>
-      </section>
+      
+        <section class="skills">
+          <figure class="tags">
+            <ul>
+              <li>html</li>
+              <li>git</li>
+              <li>parcel</li>
+              <li>css</li>
+              <li>shell</li>
+              <li>javascript</li>
+              <li>npm</li>
+              <li>ES6</li>
+              <li>more to come</li>
+            </ul>
+          </figure>
+        </section>
+      </div>
 
-      <!-- ====================== Biography =========================-->
 
       <article class="biography" id="biography">
-        <h2 class="heading">.biography</h2>
         <p class="bio-text">
           Born 1995 in the small german town Wolfenbüttel. Finished highschool
           in Hamburg with the highest degree and started a apprenticeship as
-          eventtechnician. After completing the apprenticeship, my path lead me
-          to the cruiseship company AIDA, where I worked as light- and
+          eventtechnician at <a class='link' href="https://prg.com" target="_blank"s>PRG</a>. After completing, my path lead me
+          to the cruiseship company <a class='link' href="https://www.aida.de/aida-cruises/unternehmen.19043.html/" target="_blank">AIDA</a> where I worked as light- and
           videotechnician on board. Like that I traveled the Mediterranean,
           Carribbean and Baltic seas. Crossed the Atlantic, watched Dolphins at
           the Azores and got trough my diving licence. But hamburg was calling,
-          why I decided to come back to land and work as freelancer. That worked
-          pretty well, but was never perfect. Now changes happen and iam
-          learning how to code.
+          why I decided to come back and work as freelancer.
+          Now I am a student at Neue Fische Hamburg, learn and code through the nights.
         </p>
       </article>
 
+      <div class='line'></div>
+
       <section class="timeline">
-        <h2 class="heading timeline-header">.timeline</h2>
         <ul>
           <li class="jahr20">current</li>
           <li class="jahr18">2018</li>
           <li class="jahr17">2017</li>
           <li class="jahr14">2014</li>
-          <li class="jahr07">2007</li>
           <li class="web-dev">
             web development student <br /><span class="italic"
               >Neue Fische</span
@@ -141,18 +103,6 @@
               >Production Resource Group</span
             >
           </li>
-          <li class="high">highschool</li>
         </ul>
       </section>
     </main>
-    <!-- ========================= Footer =========================-->
-
-    <footer>
-      <a class="back-link" href="#header">
-        <div class="footerlinkcontainer">
-          <span class="back">back</span>
-        </div>
-      </a>
-    </footer>
-  </body>
-</html>

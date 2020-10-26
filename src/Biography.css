@@ -1,0 +1,7 @@
+.bio-text {
+  color: var(--white);
+  padding: 20px;
+  margin: auto;
+  border-left: 1px solid var(--white);
+  width: 90%;
+}

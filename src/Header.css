@@ -1,0 +1,12 @@
+header {
+  background-color: var(--gray);
+  color: var(--white);
+  padding: 20px 0px 0px 0px;
+}
+
+.title {
+  margin-left: 20px;
+}
+
+@media only screen and (min-width: 992px) {
+}
