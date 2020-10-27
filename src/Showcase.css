@@ -1,12 +1,14 @@
 .showcase {
   width: 100%;
   margin: 0px auto;
-  display: flex;
+  display: grid;
+  grid-template-columns: 2;
 }
 
 .image {
   width: 100%;
   height: auto;
+  grid-column: 1/2;
 }
 
 .image-text {
@@ -14,6 +16,7 @@
   text-align: center;
   color: var(--white);
   padding: 10px;
+  grid-column: 2/3;
 }
 
 @media only screen and (min-width: 992px) {
@@ -26,7 +29,7 @@
   }
 
   .image {
-    width: 400px;
+    width: 80%;
     height: auto;
   }
 }
