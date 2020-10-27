@@ -3,6 +3,10 @@
   padding: 10px 0;
 }
 
+.tags {
+  margin: 0;
+}
+
 .tags ul {
   display: flex;
   flex-wrap: wrap;
@@ -36,6 +40,7 @@
   .tags {
     width: 90%;
     display: flex;
+    align-items: flex-start;
   }
 
   .tags ul {
