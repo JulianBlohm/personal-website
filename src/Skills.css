@@ -44,7 +44,7 @@
   }
 
   .tags ul {
-    width: 100%;
+    width: 95%;
     flex-wrap: none;
     justify-content: flex-start;
   }
