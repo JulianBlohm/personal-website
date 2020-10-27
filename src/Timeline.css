@@ -32,7 +32,7 @@
   border-right: 1px solid var(--white);
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1630px) {
   .timeline {
     grid-column: 1 /-1;
     width: 100%;
@@ -44,9 +44,16 @@
     grid-template-columns: 8% 16% 8% 16% 8% 16% 8% 16%;
   }
 
+  .number {
+    background: var(--white);
+    padding: 2px 10px;
+    color: var(--gray);
+  }
+
   .jahr20 {
     grid-column: 1;
     grid-row: 1;
+    text-align: left;
   }
   .jahr18 {
     grid-column: 3;
@@ -62,5 +69,9 @@
     grid-column: 7;
     grid-row: 1;
     text-align: center;
+  }
+
+  .text {
+    padding-top: 30px;
   }
 }
