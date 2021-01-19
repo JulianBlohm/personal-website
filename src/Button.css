@@ -8,19 +8,20 @@
 }
 
 .button {
-  color: white;
   text-decoration: none;
   text-align: center;
   width: 40%;
-  height: 40px;
+  height: 48px;
   border-radius: 0%;
   border-style: none;
   font-family: 'Roboto Slab', serif;
   font-size: 112.5%;
   background: var(--blue);
   margin: 10px 15px;
-  padding: 5px 10px;
   color: var(--white);
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media only screen and (min-width: 992px) {
